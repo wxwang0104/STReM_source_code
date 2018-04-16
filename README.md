@@ -9,7 +9,7 @@ Run 'demo_cos.m' to
 
   a.  The images in the left show the PSFs of emitters at different positions; 
       The images in the right show the cumulated images
-![Raw img](process.png)
+![Raw img](processes.png)
 
   b.  The final captured image that is compressed with time information
 ![Raw img](raw.png)  
