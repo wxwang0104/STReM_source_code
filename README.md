@@ -3,17 +3,23 @@ This repository contains the STReM source code for a simple demonstration of 3D 
 
 Software:   Matlab 2009 or higher version
 
-Run 'demo_cos.m' to 
+Run 
+```
+demo_cos.m
+```
+for a simple demo
 
-(1). simulate a cosin shaped trajectory; 
+# Simulate a cosin shaped trajectory 
 
-  a.  The images in the left show the PSFs of emitters at different positions; 
+1. The images in the left show the PSFs of emitters at different positions; 
       The images in the right show the cumulated images
 ![Raw img](processes.png)
 
-  b.  The final captured image that is compressed with time information
+2. The final captured image that is compressed with time information
 ![Raw img](raw.png)  
   
-(2). deconvolve the raw trajectory with 3D DH PSFs and overlay the recovered trajectory with raw image. 
+# Deconvolve the raw trajectory with 3D DH PSFs
+
+The results are overlaid the recovered trajectory with raw image. 
 
 ![Raw img](recovery.png)
